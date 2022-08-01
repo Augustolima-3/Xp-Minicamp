@@ -1,11 +1,10 @@
 <html>
     <script>
-
-        var nomes = ["João", "Maria", "José", "Ana", "Jorge", "Pedro", "Moises"];
-
-        for(var i = 0; i < nomes.length; i++){
-            console.log(nomes[i]);
+        function calculoMediaNotas(notaA, notaB, notaC, notaD){
+            var media = (notaA + notaB + notaC + notaD) / 4;
+            return media;
         }
-
+        var media = calculoMediaNotas (10, 20, 30, 40);
+        console.log(media);
     </script>
 </html>
